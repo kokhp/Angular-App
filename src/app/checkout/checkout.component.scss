@@ -1,0 +1,71 @@
+.seat-selection {
+    max-width: 1100px;
+    margin: 50px auto;
+    margin-bottom: 0;
+}
+.ticket-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+    margin-bottom: 0;
+    .info {
+        margin: 0 15px;
+        text-align: center;
+        .heading {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+    }
+}
+.elementor-element .elementor-button.elementor-size-md {
+    max-width: 180px;
+    display: block;
+    margin: 20px auto;
+}
+.send-ticket {
+    margin-top: 15px;
+    .select-option {
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 5px;
+        input {
+            position: relative;
+            opacity: 0;
+            z-index: 10;
+             + span {
+                &:before {
+                    content: '';
+                    height: 15px;
+                    width: 15px;
+                    border: 1px solid #aaa;
+                    position: absolute;
+                    left: 0;
+                    top: 7px;
+                }
+            }
+        }
+        input:checked {
+            + span {
+                &:after {
+                    content: '';
+                    content: "";
+                    border: 2px solid #fd4c66;
+                    position: absolute;
+                    height: 9px;
+                    width: 5px;
+                    border-left: 0;
+                    border-top: 0;
+                    transform: rotate(45deg);
+                    left: 5px;
+                    top: 9px;
+                }
+            }
+        }
+        p {
+            margin: 0;
+        }
+    }
+}

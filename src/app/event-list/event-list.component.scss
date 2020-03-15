@@ -1,0 +1,49 @@
+.banner-description {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    right: 30px;
+    max-width: 700px;
+    margin: auto;
+    transform: translateY(-30%);
+    text-transform: uppercase;
+    font-family: "Helvetica Neue";
+    input {
+        padding-right: 50px;
+    }
+    .search-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #fd4c66;
+        padding: 0 20px;
+        font-size: 20px;
+        color: #fff;
+        border: 0;
+    }
+    .banner-text {
+        color: #fff;
+        font-family: "Helvetica";
+        font-weight: 700;
+        span {
+            display: block;
+        }
+    }
+}
+.time-schedules-icon {
+    margin-right: 5px;
+}
+.location-schedules {
+    span {
+        &:first-child {
+            margin-right: 8px;
+        }
+    }
+}
+.author-schedules-icon {
+    margin-right: 9px;
+}
+.schedules-item {
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+app-header {
+    header {background-color: #ccc;}
+}
+.event-detail-wrapper {
+    max-width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    .left {
+        width: 50%;
+    }
+    .right {
+        width: 50%;
+        padding-left: 50px;
+    }
+    .heading {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    p {
+        line-height: normal;
+    }
+    .mb-5 {
+        margin-bottom: 5px;
+    }
+    .m-0 {
+        margin-bottom: 0;
+    }
+    .elementor-element .elementor-button.elementor-size-md {
+        padding: 1.065rem 2.5rem;
+    }
+}
